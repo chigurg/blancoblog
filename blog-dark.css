@@ -7,6 +7,7 @@ body {
 	display: block;
 	margin-left: 3%;
 	margin-right: 3%;
+	background-color: #222632;
 }
 
 #wrapper {
@@ -16,8 +17,9 @@ body {
 	margin-right: 20%;
 }
 header {
-	margin: 3%;
 	overflow: auto;
+	background-color: #141824;
+	margin-bottom: 10px;
 }
 
 header #logo {
@@ -38,7 +40,7 @@ header nav a:link  {
 	font-size: 26px;
 	text-align: left;
 	text-shadow: 0px 0px #000000;
-	color: #000000;
+	color: #D0D0D0;
 	text-decoration: none;
 }
 header nav a:visited  {
@@ -49,7 +51,7 @@ header nav a:visited  {
 }
 
 header nav a:hover  {
-	color: #3A3A3A;
+	color: #D0D0D0;
 }
 #content h1 {
 	color: #434343;
@@ -59,8 +61,15 @@ header nav a:hover  {
 }
 #content #text {
 	float: left;
-	width: 75%;
-	background-color: undefined;
+	width: 72%;
+	background-color: #141824;
+	padding-left: 2%;
+	padding-bottom: 2%;
+	padding-right: 2%;
+	color: #BBB9D3;
+	font-family: playfair-display;
+	font-style: normal;
+	font-weight: 400;
 }
 
 
@@ -74,6 +83,10 @@ header nav a:hover  {
 	margin-bottom: 5%;
 
 }
+#content #text h1 {
+	color: #ADADAD;
+}
+
 
 section #sidebar #sidetitle {
 	font-variant: small-caps;
