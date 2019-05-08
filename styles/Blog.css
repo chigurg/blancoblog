@@ -1,10 +1,12 @@
 @charset "utf-8";
 body {
-	width: 100%;
+	width: 94%;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	display: block;
+	margin-left: 3%;
+	margin-right: 3%;
 }
 
 #wrapper {
@@ -61,27 +63,47 @@ header nav a:hover  {
 #content #sidebar {
 	width: 22%;
 	float: right;
-	height: 440px;
-	background-color: #DCDCDC;
+	background-color: #E5E5E5;
 	font-family: playfair-display;
 	font-style: normal;
 	font-weight: 400;
+	margin-bottom: 5%;
 
 }
-section #sidebar #sidelinks {
-	width: 100%;
-	font-style: normal;
-}
+
 section #sidebar #sidetitle {
 	font-variant: small-caps;
 	padding-left: 2%;
 	width: 100%;
+	font-size: xx-large;
 }
+section #sidebar #sidelinks {
+	font-style: normal;
+	border: 0px;
+	/* [disabled]clear: left; */
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 0%;
+	padding-bottom: 0%;
+	font-size: medium;
+	margin-bottom: 5%;
+	font-weight: normal;
+}
+#sidebar #sidelinks ul {
+}
+div #sidelinks li {
+	margin-bottom: 4px;
+	list-style-position: inside;
+	list-style-image: url(../images/line%20vert.png);
+}
+
 
 
 footer {
 	float: left;
-
+	margin-bottom: 4px;
+	list-style-position: inside;
+	list-style-image: url(../images/line%20vert.png);
 }
 
 
